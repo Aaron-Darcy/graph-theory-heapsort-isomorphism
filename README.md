@@ -1,27 +1,31 @@
-# Graph-Theory-Assignment
-## How To Run This Notebook 
-  
-  1. Install [Anaconda](https://www.anaconda.com/products/distribution)
-  2. Install [Git](https://github.com/git-guides/install-git)
-  3. Clone this repository from CMD line into empty folder.
-  4. Type __Jupyter notebook__ in cmd line after following above steps.
-  
-# What this Repository contains:
-This git repository contains a Jupyter Notebook that we as 3rd year GMIT Computing students were tasked with doing in our Graph Theory Module.
-The note book contains the following.
+# Graph Theory: Heap Sort & Graph Isomorphism
 
-## HeapSort.ipnyb Notebook
-This is one of the 2 notebooks in this repository. It contains the following
+Two Jupyter notebooks explaining and implementing graph-theory algorithms in Python.
 
-  * Explanation of the Heap Sort algorithm
-  *  Python function implementing Heap Sort.
-  *  Explanation of the computational complexity of Heap Sort.
-  *  Explanation of how graph theory is used in Heap Sort.
+## Notebooks
 
-## Graph Isomorphism.ipnyb Notebook
-This is the 2nd notebook in the repository, it contains
+### `HeapSort.ipynb`
+- How the heap sort algorithm works
+- A Python implementation
+- Its computational complexity
+- Where graph theory comes in (heaps as binary trees)
 
-  *  Explanation of the Graph Iomorphism Problem.
-  *  Explanation of how graphs can be represented in data structures.
-  *  Python function implementing an algorithm to determine if two graphs are isomorphic or not.
-  *  Discussion of the computational complexity of the Graph Isomorphism Problem.
+### `Graph Isomorphism.ipynb`
+- The graph isomorphism problem
+- How graphs are represented in data structures
+- A Python function that decides whether two graphs are isomorphic
+- The problem's computational complexity
+
+## Running it
+
+```bash
+git clone https://github.com/Aaron-Darcy/graph-theory-heapsort-isomorphism.git
+cd graph-theory-heapsort-isomorphism
+jupyter notebook
+```
+
+Any Python 3 environment with Jupyter works, for example [Anaconda](https://www.anaconda.com/download).
+
+## Context
+
+Graph Theory module assignment, Year 3, GMIT (2022).
